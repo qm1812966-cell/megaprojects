@@ -1,0 +1,34 @@
+---
+layout: default
+---
+
+<article>
+  <h1>{{ page.title }}</h1>
+
+  {% if page.cover %}
+    <img src="{{ page.cover | relative_url }}" alt="{{ page.title }}"
+         style="width:100%;max-height:420px;object-fit:cover;border-radius:12px;">
+  {% endif %}
+
+  {% if page.summary %}
+    <p style="font-size:18px;color:#444;">{{ page.summary }}</p>
+  {% endif %}
+
+  <div style="margin:12px 0;">
+    {% if page.difficulty %}
+      <strong>Poziom:</strong> {{ page.difficulty }}<br>
+    {% endif %}
+    {% if page.tags %}
+      <strong>Tagi:</strong>
+      {% for t in page.tags %}
+        <span style="display:inline-block;padding:4px 10px;border:1px solid #ddd;border-radius:999px;margin-right:6px;">
+          {{ t }}
+        </span>
+      {% endfor %}
+    {% endif %}
+  </div>
+
+  <hr>
+
+  {{ content }}
+</article>
