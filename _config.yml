@@ -1,0 +1,8 @@
+title: "Moje projekty DIY"
+description: "Galeria projektów krok po kroku"
+theme: minima
+
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name/
