@@ -1,7 +1,7 @@
 ---
 layout: project
-title: "Robot do klikania myszką"
-summary: "Prosty sterownik LED z trybami i timerem."
+title: "Mouse Clicker Robot"
+summary: "Robot do klikania myszką"
 difficulty: "łatwy"
 tags: [LED, Arduino, DIY]
 date: 2026-01-18
