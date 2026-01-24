@@ -5,7 +5,7 @@ summary: "Prosty sterownik LED z trybami i timerem."
 difficulty: "łatwy"
 tags: [LED, Arduino, DIY]
 date: 2026-01-18
-cover: /assets/led-cover.jpg
+cover: /assets/mouseclickerrobot.png
 ---
 
 ## Co to robi?
