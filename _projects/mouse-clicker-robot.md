@@ -1,6 +1,6 @@
 ---
 layout: project
-title: "Sterownik LED do śniadania"
+title: "Robot do klikania myszką"
 summary: "Prosty sterownik LED z trybami i timerem."
 difficulty: "łatwy"
 tags: [LED, Arduino, DIY]
