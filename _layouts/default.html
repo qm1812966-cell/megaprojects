@@ -2,10 +2,13 @@
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
   {%- include head.html -%}
   <body>
-    {%- include header.html -%}
-    
-    <div style="position: sticky; top: 0; left: 0; padding: 15px 20px; background-color: white; z-index: 100;">
-      <img src="{{ '/rae.png' | relative_url }}" alt="RAE Logo" style="max-height: 50px;">
+    <div style="display: flex; align-items: center; gap: 30px; padding: 20px; border-bottom: 1px solid #eee;">
+      <div style="flex-shrink: 0;">
+        <img src="{{ '/rae.png' | relative_url }}" alt="RAE Logo" style="max-height: 60px;">
+      </div>
+      <div style="flex-grow: 1;">
+        {%- include header.html -%}
+      </div>
     </div>
 
     <main class="page-content" aria-label="Content">
