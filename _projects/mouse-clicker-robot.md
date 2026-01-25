@@ -7,7 +7,7 @@ tags: [LED, Arduino, DIY]
 date: 2026-01-18
 cover: /assets/images/mouse-clicker-robot.png 
 pdf_instructions: /assets/pdfs/mouse-clicker.pdf
-code_files: /assets/code/mouse-clicker-robot.zip
+code_files: /assets/code/mouse-clicker-robot.lms
 ---
 
 ## What it does?
