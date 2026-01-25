@@ -16,5 +16,3 @@ The robot performs random mouse-clicks.
 ## Requirements
 The robot is based on Lego Mindstorms 51515.
 
-## Source code
-Wklej kod tutaj lub dodaj link do repozytorium z kodem.
