@@ -28,6 +28,15 @@ layout: default
     {% endif %}
   </div>
 
+  {% if page.pdf_instructions %}
+    <div style="margin:20px 0;">
+      <a href="{{ page.pdf_instructions | relative_url }}" 
+         style="display:inline-block;padding:12px 20px;background-color:#4CAF50;color:white;text-decoration:none;border-radius:8px;font-weight:bold;">
+        📄 Pobierz instrukcję PDF
+      </a>
+    </div>
+  {% endif %}
+
   <hr>
 
   {{ content }}
