@@ -2,11 +2,11 @@
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
   {%- include head.html -%}
   <body>
-    {%- include header.html -%}
-    
-    <div style="padding: 20px; text-align: center;">
-      <img src="{{ '/rae.png' | relative_url }}" alt="RAE Logo" style="max-height: 80px; margin-bottom: 20px;">
+    <div style="position: fixed; top: 20px; left: 20px; z-index: 1000;">
+      <img src="{{ '/rae.png' | relative_url }}" alt="RAE Logo" style="max-height: 60px;">
     </div>
+
+    {%- include header.html -%}
 
     <main class="page-content" aria-label="Content">
       <div class="wrapper">
