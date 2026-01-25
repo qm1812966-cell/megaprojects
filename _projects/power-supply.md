@@ -7,7 +7,6 @@ tags: [Elektronics]
 date: 2026-01-18
 cover: /assets/images/power-supply.jpg
 pdf_instructions: /assets/pdfs/power-supply.pdf
-code_files: /assets/code/power-supply.zip
 ---
 
 ## What it does?
