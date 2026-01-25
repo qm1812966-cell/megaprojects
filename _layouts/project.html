@@ -28,14 +28,20 @@ layout: default
     {% endif %}
   </div>
 
-  {% if page.pdf_instructions %}
-    <div style="margin:20px 0;">
+  <div style="margin:20px 0; display:flex; gap:10px; flex-wrap:wrap;">
+    {% if page.pdf_instructions %}
       <a href="{{ page.pdf_instructions | relative_url }}" 
-         style="display:inline-block;padding:12px 20px;background-color:#4CAF50;color:white;text-decoration:none;border-radius:8px;font-weight:bold;">
-        📄 Pobierz instrukcję PDF
+         style="display:inline-block;padding:12px 20px;background-color:#10d91d;color:white;text-decoration:none;border-radius:8px;font-weight:bold;">
+        📄 Download PDF instruction
       </a>
-    </div>
-  {% endif %}
+    {% endif %}
+    {% if page.code_files %}
+      <a href="{{ page.code_files | relative_url }}" 
+         style="display:inline-block;padding:12px 20px;background-color:#0066cc;color:white;text-decoration:none;border-radius:8px;font-weight:bold;">
+        💻 Download Code
+      </a>
+    {% endif %}
+  </div>
 
   <hr>
 

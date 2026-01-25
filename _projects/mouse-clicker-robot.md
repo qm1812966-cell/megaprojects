@@ -5,17 +5,16 @@ summary: "Robot do klikania myszką"
 difficulty: "łatwy"
 tags: [LED, Arduino, DIY]
 date: 2026-01-18
-cover: /assets/mouseclickerrobot.png
+cover: /assets/images/mouse-clicker-robot.png 
+pdf_instructions: /assets/pdfs/mouse-clicker.pdf
+code_files: /assets/code/mouse-clicker-robot.zip
 ---
 
-## Co to robi?
-ten robot klika myszką 
+## What it does?
+The robot performs random mouse-clicks.
 
-## Lista części
-- ten projekt wymaga jedynie lego mindstroms 51515.
+## Requirements
+The robot is based on Lego Mindstorms 51515.
 
-## Kroki montażu
-
-
-## Kod
+## Source code
 Wklej kod tutaj lub dodaj link do repozytorium z kodem.
